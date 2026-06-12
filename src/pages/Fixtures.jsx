@@ -2,12 +2,13 @@ import useMatches from '../hooks/useMatches'
 import useTeams from '../hooks/useTeams'
 import { getPersonName } from '../utils/nameMapping'
 import { localToBST } from '../utils/dates'
+import LoadingSpinner from '../components/LoadingSpinner'
 
 function Fixtures() {
   const { matches, loading: matchLoading, error: matchError } = useMatches()
   const { teams, loading: teamLoading, error: teamError } = useTeams()
 
-  if (matchLoading || teamLoading) return <p>Loading fixtures...</p>
+  if (matchLoading || teamLoading) return <LoadingSpinner />
   if (matchError || teamError) return <p>Error: {matchError || teamError}</p>
 
   const teamMap = {}

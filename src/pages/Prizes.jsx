@@ -3,6 +3,7 @@ import useTeams from '../hooks/useTeams'
 import useMatches from '../hooks/useMatches'
 import { getPersonName } from '../utils/nameMapping'
 import cardsData from '../data/cards.json'
+import LoadingSpinner from '../components/LoadingSpinner'
 
 const ROUND_ORDER = ['group', 'r32', 'r16', 'qf', 'sf', 'final']
 const ROUND_LABELS = { group: 'Group Stage', r32: 'Round of 32', r16: 'Round of 16', qf: 'Quarter-finals', sf: 'Semi-finals', final: 'Final' }
@@ -107,7 +108,7 @@ function Prizes() {
   const { teams, loading: tLoading, error: tError } = useTeams()
   const { matches, loading: mLoading, error: mError } = useMatches()
 
-  if (gLoading || tLoading || mLoading) return <p>Loading prizes...</p>
+  if (gLoading || tLoading || mLoading) return <LoadingSpinner />
   if (gError || tError || mError) return <p>Error: {gError || tError || mError}</p>
 
   const teamMap = {}

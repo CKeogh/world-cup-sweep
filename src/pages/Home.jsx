@@ -2,13 +2,14 @@ import useGroups from '../hooks/useGroups'
 import useTeams from '../hooks/useTeams'
 import useMatches from '../hooks/useMatches'
 import { getPersonName } from '../utils/nameMapping'
+import LoadingSpinner from '../components/LoadingSpinner'
 
 function Home() {
   const { groups, loading: gLoading, error: gError } = useGroups()
   const { teams, loading: tLoading, error: tError } = useTeams()
   const { matches, loading: mLoading, error: mError } = useMatches()
 
-  if (gLoading || tLoading || mLoading) return <p>Loading...</p>
+  if (gLoading || tLoading || mLoading) return <LoadingSpinner />
   if (gError || tError || mError) return <p>Error: {gError || tError || mError}</p>
 
   const teamMap = {}

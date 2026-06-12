@@ -90,6 +90,49 @@ p { margin: 0; }
   color: var(--text);
 }
 
+.card-next-game {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+}
+
+.next-game-title {
+  margin: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+}
+
+.next-game-teams {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.next-game-team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.next-game-vs {
+  font-weight: 400;
+  color: var(--text);
+  font-size: 15px;
+}
+
+.next-game-meta {
+  font-size: 12px !important;
+  color: var(--text) !important;
+}
+
 .standings-grid {
   display: grid;
   grid-template-columns: 1fr;

@@ -19,7 +19,6 @@ function Home() {
     teamMap[t.id] = t;
   }
 
-  const finished = matches.filter((m) => m.finished === "TRUE");
   const upcoming = matches.filter((m) => m.finished !== "TRUE");
 
   function toDate(str) {
@@ -85,9 +84,7 @@ function Home() {
 
   return (
     <div className="dashboard">
-      <div className="cards">
-        {renderNextGame()}
-      </div>
+      <div className="cards">{renderNextGame()}</div>
 
       <section>
         <h2>Standings</h2>

@@ -16,8 +16,19 @@ function Fixtures() {
     teamMap[t.id] = t
   }
 
-  const finished = matches.filter((m) => m.finished === 'TRUE')
-  const upcoming = matches.filter((m) => m.finished !== 'TRUE')
+  function toDate(str) {
+    const [datePart, timePart] = str.split(' ')
+    const [month, day, year] = datePart.split('/')
+    return new Date(`${year}-${month}-${day}T${timePart}`)
+  }
+
+  const finished = matches
+    .filter((m) => m.finished === 'TRUE')
+    .sort((a, b) => toDate(b.local_date) - toDate(a.local_date))
+
+  const upcoming = matches
+    .filter((m) => m.finished !== 'TRUE')
+    .sort((a, b) => toDate(a.local_date) - toDate(b.local_date))
 
   function renderMatch(m) {
     const home = teamMap[m.home_team_id]

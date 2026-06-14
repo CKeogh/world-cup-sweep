@@ -4,6 +4,7 @@ import useMatches from '../hooks/useMatches'
 import { getPersonName } from '../utils/nameMapping'
 import cardsData from '../data/cards.json'
 import LoadingSpinner from '../components/LoadingSpinner'
+import { Link } from 'react-router-dom'
 
 const ROUND_ORDER = ['group', 'r32', 'r16', 'qf', 'sf', 'final']
 const ROUND_LABELS = { group: 'Group Stage', r32: 'Round of 32', r16: 'Round of 16', qf: 'Quarter-finals', sf: 'Semi-finals', final: 'Final' }
@@ -175,10 +176,13 @@ function Prizes() {
   wooden = sorted[sorted.length - 1]
 
   let badBoyLeader = null
+  let badBoyMax = -1
   for (const t of allTeams) {
     const cards = cardsData[t.team?.name_en]
-    if (!cards || cards.rank == null) continue
-    if (!badBoyLeader || cards.rank < cardsData[badBoyLeader.team?.name_en].rank) {
+    if (!cards) continue
+    const points = (cards.red ?? 0) * 4 + (cards.yellow ?? 0)
+    if (points > badBoyMax) {
+      badBoyMax = points
       badBoyLeader = t
     }
   }
@@ -275,9 +279,10 @@ function Prizes() {
           )}
           {badBoyLeader && (
             <div className="prize-stat">
-              {cardsData[badBoyLeader.team?.name_en]?.red ?? 0}R &middot; {cardsData[badBoyLeader.team?.name_en]?.yellow ?? 0}Y
+              {badBoyMax}P &middot; {cardsData[badBoyLeader.team?.name_en]?.red ?? 0}R &middot; {cardsData[badBoyLeader.team?.name_en]?.yellow ?? 0}Y
             </div>
           )}
+          <Link to="/prizes/bad-boys" className="prize-link">View rankings &rarr;</Link>
         </div>
       </div>
 

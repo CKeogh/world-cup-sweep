@@ -3,288 +3,288 @@
     "yellow": 1,
     "red": 1,
     "points": 5,
-    "rank": 2
-  },
-  "Brazil": {
-    "yellow": 2,
-    "red": 0,
-    "points": 2,
     "rank": 6
   },
-  "Morocco": {
-    "yellow": 0,
+  "Brazil": {
+    "yellow": 3,
     "red": 0,
-    "points": 0,
-    "rank": 14
+    "points": 3,
+    "rank": 17
+  },
+  "Morocco": {
+    "yellow": 1,
+    "red": 0,
+    "points": 1,
+    "rank": 26
   },
   "South Africa": {
-    "yellow": 2,
+    "yellow": 4,
     "red": 2,
-    "points": 10,
+    "points": 12,
     "rank": 1
   },
   "Canada": {
-    "yellow": 2,
+    "yellow": 3,
     "red": 0,
-    "points": 2,
-    "rank": 7
+    "points": 3,
+    "rank": 16
   },
   "Portugal": {
-    "yellow": 0,
+    "yellow": 3,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 3,
+    "rank": 12
   },
   "Democratic Republic of the Congo": {
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 1,
+    "rank": 27
   },
   "New Zealand": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 38
   },
   "Cape Verde": {
-    "yellow": 0,
-    "red": 0,
-    "points": null,
-    "rank": null
-  },
-  "United States": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 9
+    "rank": 28
+  },
+  "United States": {
+    "yellow": 4,
+    "red": 0,
+    "points": 4,
+    "rank": 8
   },
   "Croatia": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 44
   },
   "Qatar": {
-    "yellow": 2,
-    "red": 0,
-    "points": 2,
-    "rank": 8
+    "yellow": 3,
+    "red": 2,
+    "points": 11,
+    "rank": 2
   },
   "Paraguay": {
-    "yellow": 5,
-    "red": 0,
-    "points": 5,
+    "yellow": 6,
+    "red": 1,
+    "points": 10,
     "rank": 3
   },
   "Uzbekistan": {
-    "yellow": 0,
-    "red": 0,
-    "points": null,
-    "rank": null
-  },
-  "Saudi Arabia": {
-    "yellow": 0,
-    "red": 0,
-    "points": null,
-    "rank": null
-  },
-  "Netherlands": {
-    "yellow": 0,
-    "red": 0,
-    "points": null,
-    "rank": null
-  },
-  "Belgium": {
-    "yellow": 0,
-    "red": 0,
-    "points": null,
-    "rank": null
-  },
-  "Turkey": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 10
+    "rank": 29
+  },
+  "Saudi Arabia": {
+    "yellow": 1,
+    "red": 0,
+    "points": 1,
+    "rank": 31
+  },
+  "Netherlands": {
+    "yellow": 3,
+    "red": 0,
+    "points": 3,
+    "rank": 15
+  },
+  "Belgium": {
+    "yellow": 2,
+    "red": 0,
+    "points": 2,
+    "rank": 22
+  },
+  "Turkey": {
+    "yellow": 2,
+    "red": 0,
+    "points": 2,
+    "rank": 21
   },
   "Ivory Coast": {
-    "yellow": 0,
+    "yellow": 3,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 3,
+    "rank": 11
   },
   "Iran": {
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 1,
+    "rank": 33
   },
   "Algeria": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 41
   },
   "Haiti": {
+    "yellow": 4,
+    "red": 0,
+    "points": 4,
+    "rank": 7
+  },
+  "Colombia": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 11
-  },
-  "Colombia": {
-    "yellow": 0,
-    "red": 0,
-    "points": null,
-    "rank": null
+    "rank": 35
   },
   "Egypt": {
-    "yellow": 0,
+    "yellow": 2,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 2,
+    "rank": 19
   },
   "Czech Republic": {
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "points": 0,
-    "rank": 15
+    "points": 1,
+    "rank": 34
   },
   "Scotland": {
-    "yellow": 3,
+    "yellow": 4,
     "red": 0,
-    "points": 3,
-    "rank": 4
+    "points": 4,
+    "rank": 10
   },
   "Jordan": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 37
   },
   "Japan": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 40
   },
   "Germany": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 42
   },
   "Bosnia and Herzegovina": {
-    "yellow": 3,
-    "red": 0,
-    "points": 3,
-    "rank": 5
+    "yellow": 5,
+    "red": 1,
+    "points": 9,
+    "rank": 4
   },
   "Switzerland": {
+    "yellow": 2,
+    "red": 0,
+    "points": 2,
+    "rank": 20
+  },
+  "Iraq": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 12
-  },
-  "Iraq": {
-    "yellow": 0,
-    "red": 0,
-    "points": null,
-    "rank": null
+    "rank": 25
   },
   "Uruguay": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 47
   },
   "Ghana": {
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 1,
+    "rank": 24
   },
   "Austria": {
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 1,
+    "rank": 32
   },
   "Argentina": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 48
   },
   "Panama": {
-    "yellow": 0,
+    "yellow": 2,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 2,
+    "rank": 18
   },
   "Senegal": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 39
   },
   "Ecuador": {
-    "yellow": 0,
+    "yellow": 2,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 2,
+    "rank": 23
   },
   "Norway": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 45
   },
   "South Korea": {
+    "yellow": 3,
+    "red": 0,
+    "points": 3,
+    "rank": 14
+  },
+  "Curaçao": {
+    "yellow": 5,
+    "red": 0,
+    "points": 5,
+    "rank": 5
+  },
+  "Spain": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 13
-  },
-  "Curaçao": {
-    "yellow": 0,
-    "red": 0,
-    "points": null,
-    "rank": null
-  },
-  "Spain": {
-    "yellow": 0,
-    "red": 0,
-    "points": null,
-    "rank": null
+    "rank": 36
   },
   "Tunisia": {
-    "yellow": 0,
+    "yellow": 1,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 1,
+    "rank": 30
   },
   "France": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 43
   },
   "Australia": {
-    "yellow": 0,
+    "yellow": 4,
     "red": 0,
-    "points": 0,
-    "rank": 16
+    "points": 4,
+    "rank": 9
   },
   "England": {
     "yellow": 0,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 0,
+    "rank": 46
   },
   "Sweden": {
-    "yellow": 0,
+    "yellow": 3,
     "red": 0,
-    "points": null,
-    "rank": null
+    "points": 3,
+    "rank": 13
   }
 }

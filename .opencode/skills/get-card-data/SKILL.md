@@ -1,6 +1,7 @@
 ---
 name: get-card-data
 description: Scrape card data from cardsTable.html and update src/data/cards.json
+user-invocable: true
 ---
 
 # Get Card Data

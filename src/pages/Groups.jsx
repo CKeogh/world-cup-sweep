@@ -1,14 +1,28 @@
 import useGroups from '../hooks/useGroups'
 import useTeams from '../hooks/useTeams'
+import useMatches from '../hooks/useMatches'
 import { getPersonName } from '../utils/nameMapping'
 import LoadingSpinner from '../components/LoadingSpinner'
 
 function Groups() {
   const { groups, loading: gLoading, error: gError } = useGroups()
   const { teams, loading: tLoading, error: tError } = useTeams()
+  const { matches, loading: mLoading, error: mError } = useMatches()
 
-  if (gLoading || tLoading) return <LoadingSpinner />
-  if (gError || tError) return <p>Error: {gError || tError}</p>
+  if (gLoading || tLoading || mLoading) return <LoadingSpinner />
+  if (gError || tError || mError) return <p>Error: {gError || tError || mError}</p>
+
+  const groupMatches = matches.filter(m => m.type === 'group')
+  const allGroupFinished = groupMatches.every(m => m.finished === 'TRUE')
+
+  if (allGroupFinished) {
+    return (
+      <div>
+        <h1>Standings</h1>
+        <p>The group stage has concluded. View the knockout stage progress on the <a href="/prizes">Prizes</a> page.</p>
+      </div>
+    )
+  }
 
   const teamMap = {}
   for (const t of teams) {

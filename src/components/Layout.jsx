@@ -24,6 +24,7 @@ function Layout() {
           </NavLink>
           <NavLink to="/groups">Groups</NavLink>
           <NavLink to="/fixtures">Fixtures</NavLink>
+          <NavLink to="/knockout">Knockout</NavLink>
           <NavLink to="/prizes">Prizes</NavLink>
         </nav>
       </header>

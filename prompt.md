@@ -1,0 +1,1 @@
+Add a new page for "Knockout" stage. It should display the fixtures in a split "double tree" pattern. For the time being, just add "-" in place of the team names for now, we will fill them in later. Make sure it looks good in mobile viewports

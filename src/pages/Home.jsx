@@ -27,56 +27,67 @@ function Home() {
     return new Date(`${year}-${month}-${day}T${timePart}`);
   }
 
-  const nextGame = [...upcoming].sort(
+  const sorted = [...upcoming].sort(
     (a, b) => toDate(a.local_date) - toDate(b.local_date),
-  )[0];
+  );
+  const nextGames = sorted.filter(
+    (m) => sorted.length > 0 && m.local_date === sorted[0].local_date,
+  );
 
   function renderNextGame() {
-    if (!nextGame) return null;
-    const home = teamMap[nextGame.home_team_id];
-    const away = teamMap[nextGame.away_team_id];
+    if (nextGames.length === 0) return null;
 
     return (
       <div className="card card-next-game">
-        <h3 className="next-game-title">Next Game</h3>
-        <div className="next-game-teams">
-          <span className="next-game-team">
-            {home ? (
-              <>
-                <img
-                  src={home.flag}
-                  alt=""
-                  width={28}
-                  height={20}
-                  className="flag"
-                />
-                {getPersonName(home.name_en)}
-              </>
-            ) : (
-              nextGame.home_team_label || "TBD"
-            )}
-          </span>
-          <span className="next-game-vs">vs</span>
-          <span className="next-game-team">
-            {away ? (
-              <>
-                <img
-                  src={away.flag}
-                  alt=""
-                  width={28}
-                  height={20}
-                  className="flag"
-                />
-                {getPersonName(away.name_en)}
-              </>
-            ) : (
-              nextGame.away_team_label || "TBD"
-            )}
-          </span>
-        </div>
+        <h3 className="next-game-title">
+          Next Game{nextGames.length > 1 ? "s" : ""}
+        </h3>
+        {nextGames.map((game) => {
+          const home = teamMap[game.home_team_id];
+          const away = teamMap[game.away_team_id];
+          return (
+            <div key={game.id} className="next-game-teams">
+              <span className="next-game-team">
+                {home ? (
+                  <>
+                    <img
+                      src={home.flag}
+                      alt=""
+                      width={28}
+                      height={20}
+                      className="flag"
+                    />
+                    {getPersonName(home.name_en)}
+                  </>
+                ) : (
+                  game.home_team_label || "TBD"
+                )}
+              </span>
+              <span className="next-game-vs">vs</span>
+              <span className="next-game-team">
+                {away ? (
+                  <>
+                    <img
+                      src={away.flag}
+                      alt=""
+                      width={28}
+                      height={20}
+                      className="flag"
+                    />
+                    {getPersonName(away.name_en)}
+                  </>
+                ) : (
+                  game.away_team_label || "TBD"
+                )}
+              </span>
+              {nextGames.length > 1 && (
+                <span className="next-game-group">Group {game.group}</span>
+              )}
+            </div>
+          );
+        })}
         <p className="next-game-meta">
-          Group {nextGame.group} &middot;{" "}
-          {localToBST(nextGame.local_date, nextGame.stadium_id)}
+          {localToBST(nextGames[0].local_date, nextGames[0].stadium_id)}
         </p>
       </div>
     );

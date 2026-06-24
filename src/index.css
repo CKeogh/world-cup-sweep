@@ -114,18 +114,36 @@ p { margin: 0; }
   font-size: 18px;
   font-weight: 600;
   color: var(--text-h);
+  width: 100%;
+  justify-content: center;
 }
 
 .next-game-team {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.next-game-team:first-child {
+  justify-content: flex-end;
 }
 
 .next-game-vs {
   font-weight: 400;
   color: var(--text);
   font-size: 15px;
+}
+
+.next-game-group {
+  font-size: 11px;
+  color: var(--text);
+  background: var(--accent-bg);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .next-game-meta {

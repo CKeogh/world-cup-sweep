@@ -5,6 +5,7 @@ import Groups from './pages/Groups'
 import Fixtures from './pages/Fixtures'
 import Prizes from './pages/Prizes'
 import BadBoyRankings from './pages/BadBoyRankings'
+import Knockout from './pages/Knockout'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="fixtures" element={<Fixtures />} />
         <Route path="prizes" element={<Prizes />} />
         <Route path="prizes/bad-boys" element={<BadBoyRankings />} />
+        <Route path="knockout" element={<Knockout />} />
       </Route>
     </Routes>
   )

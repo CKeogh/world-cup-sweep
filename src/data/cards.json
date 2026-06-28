@@ -1,290 +1,290 @@
 {
   "Mexico": {
-    "yellow": 1,
+    "yellow": 2,
     "red": 1,
-    "points": 5,
-    "rank": 6
+    "points": 6,
+    "rank": 10
   },
   "Brazil": {
-    "yellow": 3,
+    "yellow": 5,
     "red": 0,
-    "points": 3,
-    "rank": 13
+    "points": 5,
+    "rank": 14
   },
   "Morocco": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 36
+    "rank": 38
   },
   "South Africa": {
-    "yellow": 4,
+    "yellow": 5,
     "red": 2,
-    "points": 12,
+    "points": 13,
     "rank": 1
   },
   "Canada": {
-    "yellow": 3,
+    "yellow": 5,
     "red": 0,
-    "points": 3,
-    "rank": 14
+    "points": 5,
+    "rank": 15
   },
   "Portugal": {
     "yellow": 4,
     "red": 0,
     "points": 4,
-    "rank": 8
+    "rank": 21
   },
   "Democratic Republic of the Congo": {
     "yellow": 2,
     "red": 0,
     "points": 2,
-    "rank": 25
+    "rank": 31
   },
   "New Zealand": {
-    "yellow": 2,
-    "red": 0,
-    "points": 2,
-    "rank": 26
-  },
-  "Cape Verde": {
-    "yellow": 3,
-    "red": 0,
-    "points": 3,
-    "rank": 15
-  },
-  "United States": {
     "yellow": 4,
     "red": 0,
     "points": 4,
-    "rank": 9
+    "rank": 22
+  },
+  "Cape Verde": {
+    "yellow": 4,
+    "red": 0,
+    "points": 4,
+    "rank": 23
+  },
+  "United States": {
+    "yellow": 5,
+    "red": 0,
+    "points": 5,
+    "rank": 16
   },
   "Croatia": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 37
+    "rank": 39
   },
   "Qatar": {
-    "yellow": 3,
+    "yellow": 4,
     "red": 2,
-    "points": 11,
+    "points": 12,
     "rank": 2
   },
   "Paraguay": {
-    "yellow": 6,
+    "yellow": 7,
     "red": 1,
-    "points": 10,
+    "points": 11,
     "rank": 3
   },
   "Uzbekistan": {
     "yellow": 2,
     "red": 0,
     "points": 2,
-    "rank": 27
+    "rank": 32
   },
   "Saudi Arabia": {
-    "yellow": 3,
+    "yellow": 6,
     "red": 0,
-    "points": 3,
-    "rank": 16
+    "points": 6,
+    "rank": 11
   },
   "Netherlands": {
     "yellow": 3,
     "red": 0,
     "points": 3,
-    "rank": 17
+    "rank": 26
   },
   "Belgium": {
     "yellow": 3,
     "red": 1,
     "points": 7,
-    "rank": 5
+    "rank": 7
   },
   "Turkey": {
     "yellow": 2,
     "red": 0,
     "points": 2,
-    "rank": 28
+    "rank": 33
   },
   "Ivory Coast": {
-    "yellow": 3,
+    "yellow": 4,
     "red": 0,
-    "points": 3,
-    "rank": 18
+    "points": 4,
+    "rank": 24
   },
   "Iran": {
-    "yellow": 2,
+    "yellow": 6,
     "red": 0,
-    "points": 2,
-    "rank": 29
+    "points": 6,
+    "rank": 12
   },
   "Algeria": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 38
+    "rank": 40
   },
   "Haiti": {
-    "yellow": 4,
+    "yellow": 7,
     "red": 0,
-    "points": 4,
-    "rank": 10
+    "points": 7,
+    "rank": 8
   },
   "Colombia": {
     "yellow": 3,
     "red": 0,
     "points": 3,
-    "rank": 19
+    "rank": 27
   },
   "Egypt": {
-    "yellow": 3,
+    "yellow": 6,
     "red": 0,
-    "points": 3,
-    "rank": 20
+    "points": 6,
+    "rank": 13
   },
   "Czech Republic": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 39
+    "rank": 41
   },
   "Scotland": {
-    "yellow": 4,
+    "yellow": 5,
     "red": 0,
-    "points": 4,
-    "rank": 11
+    "points": 5,
+    "rank": 17
   },
   "Jordan": {
     "yellow": 1,
     "red": 0,
     "points": 1,
-    "rank": 40
-  },
-  "Japan": {
-    "yellow": 0,
-    "red": 0,
-    "points": 0,
-    "rank": 44
-  },
-  "Germany": {
-    "yellow": 0,
-    "red": 0,
-    "points": 0,
-    "rank": 45
-  },
-  "Bosnia and Herzegovina": {
-    "yellow": 5,
-    "red": 1,
-    "points": 9,
-    "rank": 4
-  },
-  "Switzerland": {
-    "yellow": 2,
-    "red": 0,
-    "points": 2,
-    "rank": 30
-  },
-  "Iraq": {
-    "yellow": 2,
-    "red": 0,
-    "points": 2,
-    "rank": 31
-  },
-  "Uruguay": {
-    "yellow": 2,
-    "red": 0,
-    "points": 2,
-    "rank": 32
-  },
-  "Ghana": {
-    "yellow": 2,
-    "red": 0,
-    "points": 2,
-    "rank": 33
-  },
-  "Austria": {
-    "yellow": 3,
-    "red": 0,
-    "points": 3,
-    "rank": 21
-  },
-  "Argentina": {
-    "yellow": 2,
-    "red": 0,
-    "points": 2,
-    "rank": 34
-  },
-  "Panama": {
-    "yellow": 3,
-    "red": 0,
-    "points": 3,
-    "rank": 22
-  },
-  "Senegal": {
-    "yellow": 0,
-    "red": 0,
-    "points": 0,
-    "rank": 46
-  },
-  "Ecuador": {
-    "yellow": 2,
-    "red": 0,
-    "points": 2,
-    "rank": 35
-  },
-  "Norway": {
-    "yellow": 0,
-    "red": 0,
-    "points": 0,
-    "rank": 47
-  },
-  "South Korea": {
-    "yellow": 3,
-    "red": 0,
-    "points": 3,
-    "rank": 23
-  },
-  "Curaçao": {
-    "yellow": 5,
-    "red": 0,
-    "points": 5,
-    "rank": 7
-  },
-  "Spain": {
-    "yellow": 1,
-    "red": 0,
-    "points": 1,
-    "rank": 41
-  },
-  "Tunisia": {
-    "yellow": 1,
-    "red": 0,
-    "points": 1,
     "rank": 42
   },
-  "France": {
-    "yellow": 0,
-    "red": 0,
-    "points": 0,
-    "rank": 48
-  },
-  "Australia": {
-    "yellow": 4,
-    "red": 0,
-    "points": 4,
-    "rank": 12
-  },
-  "England": {
+  "Japan": {
     "yellow": 1,
     "red": 0,
     "points": 1,
     "rank": 43
   },
-  "Sweden": {
+  "Germany": {
+    "yellow": 1,
+    "red": 0,
+    "points": 1,
+    "rank": 44
+  },
+  "Bosnia and Herzegovina": {
+    "yellow": 6,
+    "red": 1,
+    "points": 10,
+    "rank": 4
+  },
+  "Switzerland": {
     "yellow": 3,
     "red": 0,
     "points": 3,
-    "rank": 24
+    "rank": 28
+  },
+  "Iraq": {
+    "yellow": 4,
+    "red": 1,
+    "points": 8,
+    "rank": 6
+  },
+  "Uruguay": {
+    "yellow": 5,
+    "red": 1,
+    "points": 9,
+    "rank": 5
+  },
+  "Ghana": {
+    "yellow": 2,
+    "red": 0,
+    "points": 2,
+    "rank": 34
+  },
+  "Austria": {
+    "yellow": 3,
+    "red": 0,
+    "points": 3,
+    "rank": 29
+  },
+  "Argentina": {
+    "yellow": 2,
+    "red": 0,
+    "points": 2,
+    "rank": 35
+  },
+  "Panama": {
+    "yellow": 3,
+    "red": 0,
+    "points": 3,
+    "rank": 30
+  },
+  "Senegal": {
+    "yellow": 2,
+    "red": 0,
+    "points": 2,
+    "rank": 36
+  },
+  "Ecuador": {
+    "yellow": 5,
+    "red": 0,
+    "points": 5,
+    "rank": 18
+  },
+  "Norway": {
+    "yellow": 1,
+    "red": 0,
+    "points": 1,
+    "rank": 45
+  },
+  "South Korea": {
+    "yellow": 4,
+    "red": 0,
+    "points": 4,
+    "rank": 25
+  },
+  "Curaçao": {
+    "yellow": 7,
+    "red": 0,
+    "points": 7,
+    "rank": 9
+  },
+  "Spain": {
+    "yellow": 2,
+    "red": 0,
+    "points": 2,
+    "rank": 37
+  },
+  "Tunisia": {
+    "yellow": 1,
+    "red": 0,
+    "points": 1,
+    "rank": 46
+  },
+  "France": {
+    "yellow": 1,
+    "red": 0,
+    "points": 1,
+    "rank": 47
+  },
+  "Australia": {
+    "yellow": 5,
+    "red": 0,
+    "points": 5,
+    "rank": 19
+  },
+  "England": {
+    "yellow": 1,
+    "red": 0,
+    "points": 1,
+    "rank": 48
+  },
+  "Sweden": {
+    "yellow": 5,
+    "red": 0,
+    "points": 5,
+    "rank": 20
   }
 }
